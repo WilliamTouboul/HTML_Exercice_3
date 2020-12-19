@@ -5,14 +5,32 @@
 		<title>Ma liste de course</title>
 	</head>
 	<body>
-		<h1>Ma liste de course</h1>
-		<p>Il me faut plusieurs choses :</p>
-		<ul>
-			<li>Une baguette</li>
-			<li>2 Kg de tomates</li>
-			<li>3 litres de lait</li>
-			<li>5 <strong>boites</strong> de chewing-gum</li>
-		</ul>
-		<p style="font-style:italic;">Payer en liquide ou pas chéque</p>
+		<div itemscope itemtype="https://schema.org/HowTo">
+			<h1>Ma liste de course</h1>
+			<p>Il me faut plusieurs choses :</p>
+			<ul>
+				<li><span itemprop="name">Une baguette</span> : <span itemprop="estimatedCost" itemscope itemtype="https://schema.org/MonetaryAmount">
+					<meta itemprop="currency" content="EUR"/>
+					<meta itemprop="value" content="0,87"/>
+					0,87€</span>
+				</li>
+				<li><span itemprop="name">2 Kg de tomates</span> : <span itemprop="estimatedCost" itemscope itemtype="https://schema.org/MonetaryAmount">
+					<meta itemprop="currency" content="EUR"/>
+					<meta itemprop="value" content="10"/>
+					10€</span>
+				</li>
+				<li><span itemprop="name">3 litres de lait</span> : <span itemprop="estimatedCost" itemscope itemtype="https://schema.org/MonetaryAmount">
+					<meta itemprop="currency" content="EUR" />
+					<meta itemprop="value" content="2,40" />
+					2,40€</span>
+				</li>
+				<li>5 <strong>boites</strong> de <span itemprop="name">chewing-gum</span> : <span itemprop="estimatedCost" itemscope itemtype="https://schema.org/MonetaryAmount">
+					<meta itemprop="currency" content="EUR" />
+					<meta itemprop="value" content="17,50" />
+					17,50€</span>
+				</li>
+			</ul>
+			<p style="font-style:italic;">Payer en liquide ou pas chéque</p>
+		</div>
 	</body>
 </html>
